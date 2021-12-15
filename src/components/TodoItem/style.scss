@@ -1,0 +1,17 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .work-item {
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  .delete-item {
+    color: rgba($color: red, $alpha: 0.7);
+    cursor: pointer;
+    &:hover {
+      color: rgba($color: red, $alpha: 1);
+    }
+  }
+}
